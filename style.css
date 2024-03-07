@@ -1,0 +1,100 @@
+.side-image {
+    
+    margin: 0;
+    padding: 0;
+    width: auto ;
+    height: 100vh;
+
+}
+.box {
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    flex: auto;
+}
+.my-text-input {
+    display: flex;
+    flex-direction: column;
+    width: 30%;   
+}
+body {
+    margin: 0;
+    display: flex;
+    display: flex;
+    font-family: monospace;
+}
+.form {
+    position: relative;
+}
+
+.side-container {
+    position: relative;
+}
+.slogan {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 60%;
+    margin: 0;
+    padding: 0;
+}
+.form {
+    display: flex;
+    background-color: #f9fafb;
+    flex-grow: 1;
+    margin-left: 0;
+    padding: 50px;
+}
+.credits {
+    font-size: 1.5em;
+    position: absolute;
+    bottom: 5px;
+    left: 35%;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.intro {
+    font-size: 26px;
+    font-weight: bold;
+}
+.photographer {
+    color: white;
+}
+.form {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.content {
+    width: 100%;
+    height: 40%;
+    padding: 20px;
+    background-color: aliceblue;
+    box-shadow: 0 0 5px 2px lightblue;
+    border-radius: 5px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.submission {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.myButton:hover {
+    background-color: black;
+    color: white;
+}
+.myButton {
+    font-family: inherit;
+    font-size: inherit;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #f9fafb;
+    width: 20%;
+}
