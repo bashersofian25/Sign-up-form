@@ -15,11 +15,10 @@
 .my-text-input {
     display: flex;
     flex-direction: column;
-    width: 30%;   
+    width: 50%;   
 }
 body {
     margin: 0;
-    display: flex;
     display: flex;
     font-family: monospace;
 }
@@ -65,16 +64,14 @@ body {
     font-size: 20px;
     display: flex;
     flex-direction: column;
-    
-
 }
 .content {
-    width: 100%;
+    width: 60%;
     height: 40%;
     padding: 20px;
     background-color: rgb(200, 220, 168);
     box-shadow: 0 0 5px 2px grey;
-    border-radius: 5px;
+    border-radius: 15px;
     margin-top: 30px;
     display: flex;
     flex-direction: column;
@@ -101,7 +98,10 @@ body {
     border-color: green;
 }
 
+
+
 .field:invalid {
+   
     border-color: red;
 }
 .field {
