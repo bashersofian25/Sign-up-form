@@ -28,56 +28,57 @@
             </p>
         </section>
         <section class="content">
-            <fieldset class="box">
-                <legend>Name</legend>
+            <h2>Sign Up!</h2>
+            <div class="box">
+                
                 <div class="my-text-input">
                     <label for="first-name">
                         First Name
                     </label>
-                    <input type="text" id="first-name" name="firstName">
+                    <input class="field" type="text" id="first-name" name="firstName" required>
                 </div>
                 <div class="my-text-input">
                     <label for="last-name">
                         Last Name
                     </label>
-                    <input type="text" id="last-name" name="lastName">
+                    <input class="field" type="text" id="last-name" name="lastName" required>
                 </div>
 
-            </fieldset>
+            </div>
 
-            <fieldset class="box">
-                <legend>Contact Info.</legend>
+            <div class="box">
+                
                 <div class="my-text-input">
                     <label for="Email">
                         Email
                     </label>
-                    <input type="email" id="Email" name="Email">
+                    <input class="field" type="email" id="Email" name="Email" required>
                 </div>
                 <div class="my-text-input">
                     <label for="phone-number">
                         Phone Number
                     </label>
-                    <input type="tel" id="phone-number" name="phone-number">
+                    <input class="field" name="phone" pattern="+[0-9]{3}[0-9]{3}[0-9]{3}[0-9]{4}" id="phone-number" name="phone-number" required>
                 </div>
 
-            </fieldset>
+            </div>
 
 
-            <fieldset class="box">
-                <legend>Contact Info.</legend>
+            <div class="box">
+
                 <div class="my-text-input">
                     <label for="Password">
                         Password
                     </label>
-                    <input type="password" id="Password" name="password">
+                    <input class="field" type="password" id="Password" name="password" minlength="12" required>
                 </div>
                 <div class="my-text-input">
                     <label for="Confirmed-password">
                         Confirmed Password
                     </label>
-                    <input type="password" id="Confirmed-password" name="Confirmed-password">
+                    <input class="field" type="password" id="Confirmed-password" name="Confirmed-password" minlength="12" required>
                 </div>
-            </fieldset>
+            </div>
 
         </section>
         <section class="submission">
