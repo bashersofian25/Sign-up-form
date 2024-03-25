@@ -77,6 +77,10 @@ body {
     flex-direction: column;
     gap: 10px;
 }
+
+.error {
+    color: red;
+}
 .submission {
     margin-top: 50px;
     display: flex;

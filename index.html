@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up!</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
 </head>
 <body>
     <div class="side-container">
@@ -17,7 +17,7 @@
        
     </div>
     
-    <form class="form">
+    <form class="form" novalidate>
         <section class="intro">
             <h1>Don't Think Twice</h1>
             <p>
@@ -36,12 +36,14 @@
                         First Name
                     </label>
                     <input class="field" type="text" id="first-name" name="firstName" required>
+                    <span class="first-name error" ></span>
                 </div>
                 <div class="my-text-input">
                     <label for="last-name">
                         Last Name
                     </label>
                     <input class="field" type="text" id="last-name" name="lastName" required>
+                    <span class="last-name error"></span>
                 </div>
 
             </div>
@@ -53,12 +55,14 @@
                         Email
                     </label>
                     <input class="field" type="email" id="Email" name="Email" required>
+                    <span class="email error"></span>
                 </div>
                 <div class="my-text-input">
                     <label for="phone-number">
                         Phone Number
                     </label>
-                    <input class="field" name="phone" pattern="+[0-9]{3}[0-9]{3}[0-9]{3}[0-9]{4}" id="phone-number" name="phone-number" required>
+                    <input type='text' class="field" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{3}[0-9]{3}" id="phone-number" name="phone-number" required>
+                    <span class="phone error"></span>
                 </div>
 
             </div>
@@ -76,10 +80,11 @@
                     <label for="Confirmed-password">
                         Confirmed Password
                     </label>
-                    <input class="field" type="password" id="Confirmed-password" name="Confirmed-password" minlength="12" required>
+                    <input class="field" type="password" id="Confirmed-password" name="Confirmed-password" minlength="12" required> 
                 </div>
+                
             </div>
-
+            <div class="password error"></div>
         </section>
         <section class="submission">
             <button class="myButton" type="submit"> Submit </button>
